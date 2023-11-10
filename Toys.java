@@ -6,4 +6,9 @@ public class Toys {
         this.id = id;
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "ID: " + this.id + "; Имя: " + this.name + ";";
+    }
 }
